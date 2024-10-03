@@ -5,6 +5,10 @@ import (
 	"sync"
 )
 
+/*
+Note: this program has a bug for demonstration purposes
+We demonstrate how to fix this problem in the next listing
+*/
 func doWork(cond *sync.Cond) {
 	fmt.Println("Work started")
 	fmt.Println("Work finished")
